@@ -1,0 +1,71 @@
+<!doctype html><html><head>
+<meta charset="utf-8">
+<title></title>
+</head>
+ 
+<body>
+<div id="hehe" style="width:100px; height:100px; background:#333;">
+
+</div>
+<div id="dadada" style="width:100px; height:100px; background:#633;">
+
+</div>
+<div id="ffff" style="width:100px; height:100px; background:#663;">
+
+</div>
+<script src="javascripts/meCoursePopup.js"></script>
+<script>
+    meCoursePopup({
+        shownow:true,
+        courseName:'234324324',
+        starAmount:3,
+        cont:['42453235','253535'],
+        button: [
+            {value: '听毛线', type: 'share', link: 'http://baidu.com', callback: heheda},
+            {value: '呵呵哒', type: ''}
+        ]
+    });
+    meCoursePopup({
+        trigger:'#hehe',
+        shownow:false,
+        courseName:'heheda',
+        starAmount:2,
+        cont:['现在只有2颗星','去分享你讲的故事就可以获得3颗星'],
+        button: [
+            {value: '不听了', type: 'share', link: '', callback: heheda},
+            {value: '呵呵哒', type: ''}
+        ]
+    });
+    meCoursePopup({
+        trigger:'#dadada',
+        shownow:false,
+        courseName:'555',
+        starAmount:2,
+        cont:['555','55'],
+        button: [
+            {value: '555', type: 'share', link: '', callback: hhh},
+            {value: '335553', type: ''}
+        ]
+    });
+    meCoursePopup({
+        trigger:'#ffff',
+        shownow:false,
+        courseName:'2222',
+        starAmount:2,
+        cont:['33333','33333'],
+        button: [
+            {value: '333', type: 'share', link: '', callback: hhh},
+            {value: '333', type: ''}
+        ]
+    });
+
+
+    function heheda() {
+        console.log(355533);
+    }
+    function hhh(){
+        console.log('ffff');
+    }
+</script>
+</body>
+</html>
